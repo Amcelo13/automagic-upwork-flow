@@ -41,6 +41,10 @@ const CreatorSection = () => {
                 <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">TypeScript</span>
                 <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">N8N</span>
                 <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Automation</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Microservices</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Docker</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">AWS</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Nginx</span>
               </div>
               
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
