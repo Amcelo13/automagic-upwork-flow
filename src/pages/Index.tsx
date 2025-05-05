@@ -6,6 +6,7 @@ import FeatureSection from '@/components/FeatureSection';
 import TestimonialSection from '@/components/TestimonialSection';
 import CreatorSection from '@/components/CreatorSection';
 import Footer from '@/components/Footer';
+import StickyButton from '@/components/StickyButton';
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
         <TestimonialSection />
         <CreatorSection />
       </main>
+      <StickyButton />
       <Footer />
     </div>
   );
