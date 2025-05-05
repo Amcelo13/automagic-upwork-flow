@@ -13,7 +13,7 @@ const CreatorSection = () => {
                 <div className="w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-primary/20 shadow-xl">
                   <img 
                     src="/lovable-uploads/96f74f5e-91cc-4df1-9388-5f797a8f1721.png" 
-                    alt="Creator" 
+                    alt="Creator of UpFlow AI" 
                     className="w-full h-full object-cover" 
                   />
                 </div>
@@ -26,7 +26,7 @@ const CreatorSection = () => {
             </div>
             
             <div className="w-full md:w-2/3 text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4 text-gray-800">Meet the Creator</h2>
+              <h2 className="text-3xl font-bold mb-4 text-gray-800">Meet the Creator of UpFlow AI</h2>
               <h3 className="text-xl font-semibold text-gradient mb-2">Full Stack Developer | React, Next.js, Node.js, TypeScript</h3>
               <p className="text-gray-600 mb-6">
                 🚀 Specialization in building high-performance, scalable applications. 

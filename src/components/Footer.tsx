@@ -10,15 +10,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <img 
-              src="/lovable-uploads/96f74f5e-91cc-4df1-9388-5f797a8f1721.png" 
-              alt="N8N Automation Logo" 
+              src="/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" 
+              alt="UpFlow AI Logo" 
               className="w-6 h-6"
             />
-            <span className="font-semibold text-gray-800">UpFlow</span>
+            <span className="font-semibold text-gray-800">UpFlow AI</span>
           </div>
           
           <div className="text-sm text-gray-500">
-            © {year} Upwork Proposal Automation. All rights reserved.
+            © {year} UpFlow AI - Upwork Proposal Automation. All rights reserved.
           </div>
           
           <div className="flex items-center space-x-4 mt-4 md:mt-0">

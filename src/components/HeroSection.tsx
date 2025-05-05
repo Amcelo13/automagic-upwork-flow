@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             Automate Your <span className="text-gradient">Upwork Proposals</span> <br />
-            With N8N Workflow Magic
+            With UpFlow AI and N8N
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Streamline your freelancing with AI-powered proposal automation.

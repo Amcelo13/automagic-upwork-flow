@@ -4,19 +4,19 @@ import { cn } from "@/lib/utils";
 
 const testimonials = [
   {
-    quote: "This automation tool cut my proposal time by 80% and increased my client acquisition rate. One of the best investments for my freelancing career.",
+    quote: "UpFlow AI cut my proposal time by 80% and increased my client acquisition rate. One of the best investments for my freelancing career.",
     author: "Alex Morgan",
     position: "Web Developer",
     avatar: "https://i.pravatar.cc/150?img=11"
   },
   {
-    quote: "The N8N template is extremely easy to set up and customize. Now I can focus on client work instead of hunting for jobs. Highly recommended!",
+    quote: "The N8N template from UpFlow AI is extremely easy to set up and customize. Now I can focus on client work instead of hunting for jobs. Highly recommended!",
     author: "Sarah Chen",
     position: "UX Designer",
     avatar: "https://i.pravatar.cc/150?img=20"
   },
   {
-    quote: "My proposal acceptance rate has doubled since using this automation tool. The personalized responses really make a difference in standing out.",
+    quote: "My proposal acceptance rate has doubled since using UpFlow AI. The personalized responses really make a difference in standing out from other freelancers.",
     author: "James Wilson",
     position: "Full Stack Developer",
     avatar: "https://i.pravatar.cc/150?img=67"
@@ -29,7 +29,7 @@ const TestimonialSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            What <span className="text-gradient">Freelancers</span> Are Saying
+            What <span className="text-gradient">Freelancers</span> Say About UpFlow AI
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Hear from users who have transformed their Upwork success story with our automation solution.

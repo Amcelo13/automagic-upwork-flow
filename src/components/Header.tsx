@@ -10,10 +10,10 @@ const Header = () => {
           <div className="flex items-center space-x-2">
             <img 
               src="/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" 
-              alt="N8N Automation Logo" 
+              alt="UpFlow AI Logo" 
               className="w-8 h-8"
             />
-            <span className="font-semibold text-lg text-gray-800">UpFlow</span>
+            <span className="font-semibold text-lg text-gray-800">UpFlow AI</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-sm font-medium text-gray-700 hover:text-primary transition-colors">Features</a>
