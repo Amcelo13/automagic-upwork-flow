@@ -10,7 +10,7 @@ const StickyButton = () => {
     const handleScroll = () => {
       // Show button after scrolling down 300px
       const scrollPosition = window.scrollY;
-      setIsVisible(scrollPosition > 300);
+      setIsVisible(scrollPosition > 350);
     };
 
     // Add scroll event listener
