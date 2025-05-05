@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const CreatorSection = () => {
   return (
-    <section id="creator" className="py-20 bg-secondary/30">
+    <section id="creator" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
@@ -26,21 +26,21 @@ const CreatorSection = () => {
             </div>
             
             <div className="w-full md:w-2/3 text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4">Meet the Creator</h2>
+              <h2 className="text-3xl font-bold mb-4 text-gray-800">Meet the Creator</h2>
               <h3 className="text-xl font-semibold text-gradient mb-2">Full Stack Developer | React, Next.js, Node.js, TypeScript</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-gray-600 mb-6">
                 🚀 Specialization in building high-performance, scalable applications. 
                 With expertise in modern frontend and backend technologies, I deliver 
                 seamless user experiences and robust server-side solutions.
               </p>
               
               <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-6">
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">React</span>
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Next.js</span>
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Node.js</span>
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">TypeScript</span>
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">N8N</span>
-                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Automation</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">React</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Next.js</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Node.js</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">TypeScript</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">N8N</span>
+                <span className="px-3 py-1 bg-white shadow-sm rounded-full text-xs font-medium text-gray-700">Automation</span>
               </div>
               
               <div className="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -62,7 +62,7 @@ const CreatorSection = () => {
                   className={cn(
                     "inline-flex items-center justify-center gap-2",
                     "rounded-md px-4 py-2 text-sm font-medium",
-                    "bg-background border border-border",
+                    "bg-white border border-gray-200",
                     "hover:border-primary transition-all"
                   )}
                 >
