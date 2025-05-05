@@ -12,7 +12,7 @@ const CreatorSection = () => {
               <div className="relative">
                 <div className="w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-primary/20 shadow-xl">
                   <img 
-                    src="/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" 
+                    src="/lovable-uploads/96f74f5e-91cc-4df1-9388-5f797a8f1721.png" 
                     alt="Creator" 
                     className="w-full h-full object-cover" 
                   />
@@ -58,7 +58,9 @@ const CreatorSection = () => {
                   Get the Template
                 </a>
                 <a 
-                  href="#contact" 
+                  href="https://linktree.com/chetelise" 
+                  target="_blank"
+                  rel="noreferrer"
                   className={cn(
                     "inline-flex items-center justify-center gap-2",
                     "rounded-md px-4 py-2 text-sm font-medium",
