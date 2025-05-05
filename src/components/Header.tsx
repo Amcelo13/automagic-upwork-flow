@@ -1,0 +1,42 @@
+
+import React from 'react';
+import { cn } from "@/lib/utils";
+
+const Header = () => {
+  return (
+    <header className="fixed top-0 left-0 right-0 z-50 py-4">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between">
+          <div className="flex items-center space-x-2">
+            <img 
+              src="/lovable-uploads/96f74f5e-91cc-4df1-9388-5f797a8f1721.png" 
+              alt="N8N Automation Logo" 
+              className="w-8 h-8"
+            />
+            <span className="font-semibold text-lg">UpFlow</span>
+          </div>
+          <nav className="hidden md:flex items-center space-x-8">
+            <a href="#features" className="text-sm font-medium hover:text-primary transition-colors">Features</a>
+            <a href="#testimonials" className="text-sm font-medium hover:text-primary transition-colors">Testimonials</a>
+            <a href="#creator" className="text-sm font-medium hover:text-primary transition-colors">Creator</a>
+          </nav>
+          <a 
+            href="https://tchetan.gumroad.com/l/upwork-automation-n8n-template" 
+            target="_blank" 
+            rel="noreferrer"
+            className={cn(
+              "hidden md:inline-flex items-center justify-center",
+              "rounded-md px-4 py-2 text-sm font-medium",
+              "bg-primary text-primary-foreground shadow",
+              "hover:opacity-90 transition-all"
+            )}
+          >
+            Get Started
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

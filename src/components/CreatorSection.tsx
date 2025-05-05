@@ -1,0 +1,80 @@
+
+import React from 'react';
+import { cn } from "@/lib/utils";
+
+const CreatorSection = () => {
+  return (
+    <section id="creator" className="py-20 bg-secondary/30">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+            <div className="w-full md:w-1/3">
+              <div className="relative">
+                <div className="w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-primary/20 shadow-xl">
+                  <img 
+                    src="/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" 
+                    alt="Creator" 
+                    className="w-full h-full object-cover" 
+                  />
+                </div>
+                <div className="absolute -bottom-4 -right-4 p-2 bg-primary rounded-full text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            
+            <div className="w-full md:w-2/3 text-center md:text-left">
+              <h2 className="text-3xl font-bold mb-4">Meet the Creator</h2>
+              <h3 className="text-xl font-semibold text-gradient mb-2">Full Stack Developer | React, Next.js, Node.js, TypeScript</h3>
+              <p className="text-muted-foreground mb-6">
+                🚀 Specialization in building high-performance, scalable applications. 
+                With expertise in modern frontend and backend technologies, I deliver 
+                seamless user experiences and robust server-side solutions.
+              </p>
+              
+              <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-6">
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">React</span>
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Next.js</span>
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Node.js</span>
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">TypeScript</span>
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">N8N</span>
+                <span className="px-3 py-1 bg-background rounded-full text-xs font-medium">Automation</span>
+              </div>
+              
+              <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                <a 
+                  href="https://tchetan.gumroad.com/l/upwork-automation-n8n-template" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className={cn(
+                    "inline-flex items-center justify-center gap-2",
+                    "rounded-md px-4 py-2 text-sm font-medium",
+                    "green-gradient text-white",
+                    "hover:opacity-90 transition-all"
+                  )}
+                >
+                  Get the Template
+                </a>
+                <a 
+                  href="#contact" 
+                  className={cn(
+                    "inline-flex items-center justify-center gap-2",
+                    "rounded-md px-4 py-2 text-sm font-medium",
+                    "bg-background border border-border",
+                    "hover:border-primary transition-all"
+                  )}
+                >
+                  Contact Me
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CreatorSection;
