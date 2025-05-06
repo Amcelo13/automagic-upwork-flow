@@ -59,7 +59,7 @@ const HeroSection = () => {
           <video
             ref={videoRef}
             className="w-full aspect-video object-contain bg-white scale-[1.05]"
-            loop
+            // loop
             // playsInline
             autoPlay={false}
             onClick={togglePlay}
