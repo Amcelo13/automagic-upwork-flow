@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# UpFlow AI - Upwork Proposal Automation
 
-## Project info
+![UpFlow AI Logo](/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png)
 
-**URL**: https://lovable.dev/projects/9e3dd1b9-c753-4fec-ad4e-e33ea5e3e6ef
+UpFlow AI is a powerful automation tool that helps freelancers streamline their Upwork proposal process using N8N workflows and AI.
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+Visit the live site: [https://upflow.chetanthakur.dev/](https://upflow.chetanthakur.dev/)
 
-**Use Lovable**
+## 📹 Demo Video
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9e3dd1b9-c753-4fec-ad4e-e33ea5e3e6ef) and start prompting.
+Watch how UpFlow AI works:
 
-Changes made via Lovable will be committed automatically to this repo.
+<video width="100%" controls>
+  <source src="/lovable-uploads/Final.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚡ **Automated Proposals** - Generate personalized, high-converting proposals based on job requirements
+- 🔍 **Job Matching** - Find perfect jobs matching your skills with intelligent filtering
+- ⏱️ **Time Saving** - Reduce proposal writing time from hours to minutes
+- 📈 **Higher Win Rate** - Craft compelling proposals that stand out from competition
+- 🧩 **N8N Integration** - Leverage N8N workflows for seamless automation
+- 🔄 **Easy Customization** - Adapt templates to your specific needs without coding
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+1. Clone the repository
+   ```
+   git clone <repository-url>
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies
+   ```
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Start the development server
+   ```
+   npm run dev
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. Build for production
+   ```
+   npm run build
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 💻 Tech Stack
 
-**Edit a file directly in GitHub**
+<div align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+</div>
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📄 License
 
-**Use GitHub Codespaces**
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 👨‍💻 Creator
 
-## What technologies are used for this project?
+Created by [Chetan Thakur](https://linktree.com/chetelise) - Full Stack Developer specializing in React, Next.js, Node.js, and TypeScript.
 
-This project is built with:
+## 🔗 Links
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9e3dd1b9-c753-4fec-ad4e-e33ea5e3e6ef) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- [Get the Template](https://tchetan.gumroad.com/l/upwork-automation-n8n-template)
+- [Contact Me](https://linktree.com/chetelise)
