@@ -27,7 +27,7 @@ const HeroSection = () => {
             loop 
             playsInline
           >
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-creating-digital-systems-with-sorting-33109-large.mp4" type="video/mp4" />
+            <source src="/lovable-uploads/Final.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
