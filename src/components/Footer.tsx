@@ -11,14 +11,14 @@ const Footer = () => {
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <img 
               src="/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" 
-              alt="UpFlow AI Logo" 
+              alt="IntelliWave AI Logo" 
               className="w-6 h-6"
             />
-            <span className="font-semibold text-gray-800">UpFlow AI</span>
+            <span className="font-semibold text-gray-800">IntelliWave AI</span>
           </div>
           
           <div className="text-sm text-gray-500">
-            © {year} UpFlow AI - Upwork Proposal Automation. All rights reserved.
+            © {year} IntelliWave AI - Upwork Proposal Automation. All rights reserved.
           </div>
           
           <div className="flex items-center space-x-4 mt-4 md:mt-0">

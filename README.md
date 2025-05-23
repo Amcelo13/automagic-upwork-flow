@@ -1,21 +1,12 @@
-# UpFlow AI - Upwork Proposal Automation
 
-![UpFlow AI Logo](/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png)
+# IntelliWave AI - Upwork Proposal Automation
 
-UpFlow AI is a powerful automation tool that helps freelancers streamline their Upwork proposal process using N8N workflows and AI.
+  <img src="https://upflow.chetanthakur.dev/lovable-uploads/d4b10973-99f4-4b22-a934-2f2eb6544791.png" alt="shadcn/ui" />
+IntelliWave AI is a powerful automation tool that helps freelancers streamline their Upwork proposal process using N8N workflows and AI.
 
 ## 🌐 Live Demo
 
 Visit the live site: [https://upflow.chetanthakur.dev/](https://upflow.chetanthakur.dev/)
-
-## 📹 Demo Video
-
-Watch how UpFlow AI works:
-
-<video width="100%" controls>
-  <source src="/lovable-uploads/Final.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## ✨ Features
 
